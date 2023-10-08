@@ -242,6 +242,39 @@ body {
   object-fit: cover;
 }
 
+.about-academic-box {
+  margin-top: 36px;
+}
+
+.about-academic-image {
+  width: 100px;
+  object-fit: cover;
+}
+
+.about-academic-description-box {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.about-academic-text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.about-description {
+  font-size: 16px;
+  font-weight: 300;
+  color: gray;
+}
+
+.about-institut {
+  font-size: 24px;
+  font-weight: 600;
+}
+
 /* footer */
 .footer {
   display: flex;
