@@ -30,6 +30,12 @@ body {
   position: relative;
 }
 
+.header-logo {
+  height: 64px;
+  width: 64px;
+  color: #333;
+}
+
 .header-title {
   font-size: 24px;
   font-weight: 500;
