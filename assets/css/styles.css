@@ -277,6 +277,49 @@ body {
 
 /* ========================================================= */
 /* experience section */
+.card-experience-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.card-experience {
+  display: flex;
+  gap: 24px;
+  border-top: 1px solid #eee;
+  padding-top: 24px;
+}
+
+.experience-image-logo {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.experience-text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.experience-card-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.experience-card-location {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.experience-card-description {
+  font-size: 14px;
+  font-weight: 300;
+  color: gray;
+}
 
 /* footer */
 .footer {
